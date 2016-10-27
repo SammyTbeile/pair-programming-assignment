@@ -39,4 +39,6 @@ wtforms
 
 How to run:
 Run mongo with mongod --dbpath <path to project directory>
-Run our app with python app.py
+Run our app (and install dependencies) with fab build
+Run just our app with fab serve
+Run our tests with fab test
